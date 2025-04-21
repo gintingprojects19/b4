@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+}
+
+#mt{
+    width: 60%;
+    margin: auto;
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+#mt-trk{
+    margin-left: 25%;
+}
+#check-vid{
+    width: 100%;
+    height: 100%;
+}
+#right{
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #09095a;
+    margin: auto;
+}
+.check-mt{
+    width: 60%;
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    padding: 10px;
+    
+}
+.check-mt:hover{
+    background-color: skyblue;
+    color: black;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#tp-check{
+    margin-left: 100px;
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    
+}
+
+#tp{
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    margin-left: 105px;
+    
+}
+#gtg{
+    font-weight: bold;
+    color: red;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+#lv:hover{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+}
+#lv{
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    text-align: center;
+    width: 75%;
+    background-color:darkblue;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+#instruksi{
+    text-align: center;
+}
+#menu{
+    
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    background-color: white;
+    color: darkblue;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+#frame-header{
+    position: fixed;
+    z-index: 999;
+    width: 90%;
+    height: 53px;
+    margin-left: 5%;
+    background-color: #09095a;
+    /*background: linear-gradient(to left,blue,red,blue,pink,yellow); */
+    box-shadow: 2px 2px 10px 2px grey;
+}
+#slt{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+#video{
+    width: 60%;
+    padding-bottom: 50px;
+    background-color:white;
+    margin: auto;
+}
+#test-vid{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-color: black;
+}
+#petunjuk{
+    width: 100%;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+#ket-web{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+        
+    
+      font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+#content{
+    width: 90%;
+    padding-bottom: 20px;
+    background-color: beige;
+    margin: auto;
+    padding-top: 70px;
+    
+}
+#tag-line{
+    margin-left: 55px;
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    color: white;
+}
+#nama{
+    margin-left: 60px;
+font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+    padding-top: 2px;
+    color: white;
+}
+
+#line{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    background-color: #09095a;
+}
+
+
+
+
+.jdl{
+    text-align: center;
+    height: 30px;
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+
+.
+.jdl-menu{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+#q-test{
+ width: 100%;
+   
+}
+.cp{
+    width: 100%;
+    text-align:center;
+    color: white;
+     font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+#jam{
+    width: 100px;
+    height: 100px;
+    /*background-color: black;*/
+    position: fixed;
+    z-index: 999;
+    bottom:0px;
+    
+    margin-left: 5%;
+    padding-left: 20px;
+}
+#list-menu{
+    overflow: scroll;
+    margin-left: 25%;
+    width: 50%;
+    top: 83px;
+    display: none;
+    
+    height: 600px;
+    background-color:white;
+    box-shadow: 2px 1px 5px 5px grey;
+    position:absolute;
+    
+    
+    /*display: none;*/
+    
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+#nama{
+    font-size: 14pt;
+}
+
+#gtg{
+    color: red;
+    font-weight: bold;
+}
+
+
+#line-nama{
+    width: 50%;
+    height: 48px;
+    
+}
+#line-menu{
+    width: 20%;
+    height: 48px;
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 724px){
+    #nama{
+        font-size: 12pt;
+        margin-left: 7px;
+    }
+    #line-nama{
+        width: 70%;
+    }
+    #tag-line{
+        font-size: 10pt;
+        margin-left: 7px;
+    }
+    #ket-web{
+        width: 100%;
+    }
+    #video{
+        width: 98%;
+    }
+    #test-vid{
+        width: 100%;
+    }
+    #mt-trk{
+        margin-left: 5px;
+    }
+    #tp-check{
+        margin-left: 5px;
+    }
+    #jam{
+        /*display: none;*/
+    }
+    #slt{
+        width: 90%;
+    }
+    #line-menu{
+        width: 30%;
+        margin-left: 0;
+        
+    }
+    #menu{
+        margin-left: 10%;
+        padding:2px;
+        width: 70px;
+    }
+    #list-menu{
+        width: 100%;
+        margin-left: 0;
+    {
+        display: none;
+        }
+        .cp{
+            text-align:right;
+        }
+}
